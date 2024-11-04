@@ -1,27 +1,10 @@
+import Header from "../../components/Header/Header";
+import Navbar from './../../components/Navbar/Navbar';
 const Home = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-sm bg-light">
-        <div className="container-fluid">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link 1
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link 2
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link 3
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <div className="flex justify-center flex-col items-center">
+      <Header />
+      <Navbar />
     </div>
   );
 };
