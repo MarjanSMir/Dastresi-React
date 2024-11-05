@@ -27,6 +27,7 @@ const Home = () => {
       <MyContext.Provider value={slider}>
         <Slider />
       </MyContext.Provider>
+
       <Takhfif />
     </div>
   );
