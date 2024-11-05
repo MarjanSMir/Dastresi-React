@@ -14,7 +14,7 @@ import { useContext } from "react";
 import { MyContext } from "./../../pages/Home/Home";
 
 export default function Slider() {
-  const Slider = useContext(MyContext);
+  let Slider = useContext(MyContext);
   console.log(Slider);
   return (
     <>
