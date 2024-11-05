@@ -1,0 +1,9 @@
+{
+    "slider":[
+        {"id":1,"image":"../src/assets/banner-dastresi-1.png","alt":"Banner"},
+        {"id":2,"image":"../src/assets/Artboard-5Artboard-6.png","alt":"Banner"},
+        {"id":3,"image":"../src/assets/banner-dastresi-2-min.png","alt":"Banner"},
+        {"id":4,"image":"../src/assets/banner-dastresi-4-min.png","alt":"Banner"},
+        {"id":5,"image":"../src/assets/jashnvare.jpg","alt":"Banner"}
+    ]
+}
