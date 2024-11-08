@@ -6,7 +6,7 @@
         {"id":4,"image":"../src/assets/banner-dastresi-4-min.png","alt":"Banner"},
         {"id":5,"image":"../src/assets/jashnvare.jpg","alt":"Banner"}
     ],
-    "product":[
+    "Product":[
         {"id":1,"image":"../src/assets/Products/2347-11.jpg","name":"شارژر دیواری 20 واتی انکر","model":"Anker A2347L21","price":"475,000"},
         {"id":2,"image":"../src/assets/Products/WIRLESS-CHARG-11.jpg","name":"هولدر رومیزی وایرلس شارژ مگ سیف پاورولوژی","model":"Powerology PMHDWCM","price":"1,897,000"},
         {"id":3,"image":"../src/assets/Products/7bc9091890d6335159740920095b19314b99de85_1674901978.jpg","name":"شارژر دیواری راوپاور 20 واتی","model":"Ravpower rp-pc168","price":"530,000"},

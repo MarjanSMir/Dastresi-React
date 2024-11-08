@@ -1,0 +1,13 @@
+.card-swiper {
+    width: 100%;
+    height: 100%;
+    line-height: 3rem;
+  }
+  .product-slid img {
+    width: 80%;
+    height: 60%;
+    object-fit:fill;
+    padding: 3rem;
+    margin-top: -5rem;
+  }
+  

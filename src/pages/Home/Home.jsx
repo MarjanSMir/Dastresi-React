@@ -11,7 +11,6 @@ const Home = () => {
   const fetchSlider = async () => {
     try {
       let res = await axios.get("http://localhost:3000/slider");
-      console.log(res.data);
       setSlider(res.data);
     } catch (error) {
       console.log(error.message);
@@ -27,7 +26,6 @@ const Home = () => {
       <MyContext.Provider value={slider}>
         <Slider />
       </MyContext.Provider>
-
       <Takhfif />
     </div>
   );
