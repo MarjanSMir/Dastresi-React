@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 const Header = () => {
+  const navigate = useNavigate();
+  const changeRoute = ()=>{navigate("/Admin")}
   return (
       <nav className="w-3/4 flex justify-between items-center m-5">
         <img className="Header-Logo" src="/src/assets/logo.png" alt="Logo" />
@@ -12,7 +16,7 @@ const Header = () => {
           <li className="p-3 cursor-pointer">ارتباط با ما</li>
           <li className="p-3 cursor-pointer">درباره ما</li>
         </ul>
-        <button className="w-[7rem] h-[3rem] bg-green-600 rounded text-white">
+        <button className="w-[7rem] h-[3rem] bg-green-600 rounded text-white" onClick={changeRoute}>
           پنل ادمین
         </button>
       </nav>
