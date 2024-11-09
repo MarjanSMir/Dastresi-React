@@ -1,12 +1,7 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "./Card-Style.css";
-
-// import required modules
-import { Pagination } from "swiper/modules";
 import { useContext } from "react";
 import { MyContext } from "./../../pages/Home/Home";
 const LargeTCard = () => {
@@ -16,11 +11,6 @@ const LargeTCard = () => {
     <Swiper
       slidesPerView={2}
       spaceBetween={30}
-      centeredSlides={true}
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Pagination]}
       className="mySwiper card-swiper rounded"
     >
       {Product?.map((item) => {

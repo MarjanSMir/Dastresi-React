@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 import axios from "axios";
 import Takhfif from './../../components/Takhfif/Takhfif';
+import Dastebandi from './../../components/Dastebandi/Dastebandi';
 
 export let MyContext = React.createContext();
 const Home = () => {
@@ -28,6 +29,7 @@ const Home = () => {
         <Slider />
       </MyContext.Provider>
       <Takhfif />
+      <Dastebandi />
     </div>
   );
 };

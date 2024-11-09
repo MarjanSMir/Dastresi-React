@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { MyContext } from "./../../pages/Home/Home";
-import LargeTCard from "./../Crads/LargeTCard";
+import LargeTCard from "./../Cards/LargeTCard";
 
 const Takhfif = () => {
   const [Product, setProduct] = useState(null);
