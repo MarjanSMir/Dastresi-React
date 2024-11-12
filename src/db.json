@@ -230,5 +230,52 @@
       "alt": "پاورژنراتور 150 واتی مینی 32000 میلی آمپر پاورولوژی مدل Powerology PPBCHA31",
       "price": "8,540,000"
     }
+  ],
+  "Brands": [
+    {
+      "id": 1,
+      "image": "../src/assets/Brands/diehard logo.jpg",
+      "alt": "برند"
+    },
+    {
+      "id": 2,
+      "image": "../src/assets/Brands/H64c19886758b40378c31d5f46c5ae984A.jpg",
+      "alt": "برند"
+    },
+    {
+      "id": 3,
+      "image": "../src/assets/Brands/inoben.jpg",
+      "alt": "برند"
+    },
+    {
+      "id": 4,
+      "image": "../src/assets/Brands/logo (1).jpg",
+      "alt": "برند"
+    },
+    {
+      "id": 5,
+      "image": "../src/assets/Brands/logo (2).jpg",
+      "alt": "برند"
+    },
+    {
+      "id": 6,
+      "image": "../src/assets/Brands/logo-1.jpg",
+      "alt": "برند"
+    },
+    {
+      "id": 7,
+      "image": "../src/assets/Brands/logo.jpg",
+      "alt": "برند"
+    },
+    {
+      "id": 8,
+      "image": "../src/assets/Brands/logp.jpg",
+      "alt": "برند"
+    },
+    {
+      "id": 9,
+      "image": "../src/assets/Brands/Untitled-159.jpg",
+      "alt": "برند"
+    }
   ]
 }
