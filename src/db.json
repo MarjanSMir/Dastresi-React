@@ -2,25 +2,25 @@
   "slider": [
     {
       "id": 1,
-      "image": "../src/assets/banner-dastresi-1.png",
+      "image": "../src/assets/Slider/banner-dastresi-1.png",
       "alt": "Banner"
     },
     {
       "id": 2,
-      "image": "../src/assets/Artboard-5Artboard-6.png",
+      "image": "../src/assets/Slider/Artboard-5Artboard-6.png",
       "alt": "Banner"
     },
     {
       "id": 3,
-      "image": "../src/assets/banner-dastresi-2-min.png",
+      "image": "../src/assets/Slider/banner-dastresi-2-min.png",
       "alt": "Banner"
     },
     {
       "id": 4,
-      "image": "../src/assets/banner-dastresi-4-min.png",
+      "image": "../src/assets/Slider/banner-dastresi-4-min.png",
       "alt": "Banner"
     },
-    { "id": 5, "image": "../src/assets/jashnvare.jpg", "alt": "Banner" }
+    { "id": 5, "image": "../src/assets/Slider/jashnvare.jpg", "alt": "Banner" }
   ],
   "Product": [
     {
@@ -167,6 +167,68 @@
       "image": "../src/assets/Mojodi/RADIO-22.jpg",
       "alt": "پاوربانک خورشیدی 16000 میلی آمپر 4 کاره پاورولوژی مدل Powerology PPBCHA49",
       "price": "3,340,000"
+    }
+  ],
+  "ProductP": [
+    {
+      "id": 1,
+      "image": "../src/assets/Pforosh/8363ANKER-11.jpg",
+      "alt": "ظرف آب حیوانات خانگی انکر",
+      "price": "485,000"
+    },
+    {
+      "id": 2,
+      "image": "../src/assets/Pforosh/ANKER3958-22.jpg",
+      "alt": "جویسر قابل حمل",
+      "price": "450,000"
+    },
+    {
+      "id": 3,
+      "image": "../src/assets/Pforosh/ANKER8339-1.jpg",
+      "alt": "دستگاه بخور سرد",
+      "price": "1,000,000"
+    },
+    {
+      "id": 4,
+      "image": "../src/assets/Pforosh/CARCH-GR65W-11.jpg",
+      "alt": "پد وایرلس شارژ سه کاره",
+      "price": "4,500,000"
+    },
+    {
+      "id": 5,
+      "image": "../src/assets/Pforosh/GNMPB60KBK-11.jpg",
+      "alt": "کابل تبدیل مادگی TRS به لایتنینگ بویا BY-K3",
+      "price": "880,000"
+    },
+    {
+      "id": 6,
+      "image": "../src/assets/Pforosh/GREEN-11.jpg",
+      "alt": "کابل تبدیل مادگی TRS به Type C بویا BY-K4",
+      "price": "490,000"
+    },
+    {
+      "id": 7,
+      "image": "../src/assets/Pforosh/GreenLion-KIT-.jpg",
+      "alt": "کیبورد و ریموت و ماوس پرودو مدل Porodo PD-MWKTC",
+      "price": "485,000"
+    },
+    {
+      "id": 8,
+      "image": "../src/assets/Pforosh/LPMFGRWH1-11.jpg",
+      "alt": "هندزفری بلوتوثی ورزشی القایی پاورولوژی مدل Powerology Pwlau007",
+      "price": "2,6990,000"
+    },
+    {
+      "id": 9,
+      "image": "../src/assets/Pforosh/PCCSR012-11.jpg",
+      "alt": "پاوربانک و چراغ قوه 10000 میلی آمپر پرودو مدل Porodo PD-PBFCH030",
+      "price": "485,000"
+    },
+    {
+      "id": 10,
+      "image": "../src/assets/Pforosh/PCCSR016-11.jpg",
+      "alt": "پاورژنراتور 150 واتی مینی 32000 میلی آمپر پاورولوژی مدل Powerology PPBCHA31",
+      "price": "8,540,000"
     }
   ]
 }

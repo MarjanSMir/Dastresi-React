@@ -28,7 +28,7 @@ const Moarefi = () => {
           </p>
         </div>
         <div className="box-4 w-1/4 flex flex-col items-center justify-center m-3">
-          <img src="/src/assets/Icon/icon1.png" alt="" className=""/>
+          <img src="/src/assets/Icon/icon4.png" alt="" className=""/>
           <h4 className="text-sm text-gray-600 font-semibold mt-4">امکان خرید حضوری</h4>
           <p className="text-sm mt-3">
             مشتری گرامی جهت خرید حضوری می‌توانید به آدرس مندرج در پایین سایت

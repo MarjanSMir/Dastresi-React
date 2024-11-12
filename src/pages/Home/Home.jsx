@@ -8,6 +8,7 @@ import Takhfif from './../../components/Takhfif/Takhfif';
 import Dastebandi from './../../components/Dastebandi/Dastebandi';
 import Mojodi from './../../components/Mojodi/Mojodi';
 import Moarefi from './../../components/DastresiMoarefi/DastresiM';
+import Pforosh from './../../components/PorForosh/Porforosh';
 
 export let MyContext = React.createContext();
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
       <Dastebandi />
       <Mojodi />
       <Moarefi />
+      <Pforosh />
     </div>
   );
 };
