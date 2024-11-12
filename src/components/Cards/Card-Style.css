@@ -13,4 +13,12 @@
   .DSwiper{
     width: 100%;
   }
-  
+  .productM-slid img {
+    width: 80%;
+    height: 40%;
+    object-fit:fill;
+  }
+  .cardM-swiper{
+    width: 100%;
+    height: 26rem;
+  }

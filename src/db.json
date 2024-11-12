@@ -60,15 +60,31 @@
     }
   ],
   "Dastebandi": [
-    { "id": 1, "image": "../src/assets/Dastebandi/mobadel o rabet.png", "alt": "مبدل و رابط" },
-    { "id": 2, "image": "../src/assets/Dastebandi/gaming.png", "alt": "لوازم گیمینگ" },
+    {
+      "id": 1,
+      "image": "../src/assets/Dastebandi/mobadel o rabet.png",
+      "alt": "مبدل و رابط"
+    },
+    {
+      "id": 2,
+      "image": "../src/assets/Dastebandi/gaming.png",
+      "alt": "لوازم گیمینگ"
+    },
     {
       "id": 3,
       "image": "../src/assets/Dastebandi/adaptor.png",
       "alt": "آداپتور و شارژر"
     },
-    { "id": 4, "image": "../src/assets/Dastebandi/battery.png", "alt": "باتری" },
-    { "id": 5, "image": "../src/assets/Dastebandi/cable.png", "alt": "کابل شارژ" },
+    {
+      "id": 4,
+      "image": "../src/assets/Dastebandi/battery.png",
+      "alt": "باتری"
+    },
+    {
+      "id": 5,
+      "image": "../src/assets/Dastebandi/cable.png",
+      "alt": "کابل شارژ"
+    },
     {
       "id": 6,
       "image": "../src/assets/Dastebandi/powerbank.png",
@@ -83,6 +99,74 @@
       "id": 8,
       "image": "../src/assets/Dastebandi/Holder Negahdarande.png",
       "alt": "هولدر و نگهدارنده"
+    }
+  ],
+  "ProductM": [
+    {
+      "id": 1,
+      "image": "../src/assets/Mojodi/7220EUFY-11.jpg",
+      "alt": "ظرف آب حیوانات خانگی انکر",
+      "price": "485,000"
+    },
+    {
+      "id": 2,
+      "image": "../src/assets/Mojodi/B8ZZJ0-11.jpg",
+      "alt": "جویسر قابل حمل",
+      "price": "450,000"
+    },
+    {
+      "id": 3,
+      "image": "../src/assets/Mojodi/BOOKHOOR-11.jpg",
+      "alt": "دستگاه بخور سرد",
+      "price": "1,000,000"
+    },
+    {
+      "id": 4,
+      "image": "../src/assets/Mojodi/BSW-0011-33.jpg",
+      "alt": "پد وایرلس شارژ سه کاره",
+      "price": "4,500,000"
+    },
+    {
+      "id": 5,
+      "image": "../src/assets/Mojodi/BY-K3-11.jpg",
+      "alt": "کابل تبدیل مادگی TRS به لایتنینگ بویا BY-K3",
+      "price": "880,000"
+    },
+    {
+      "id": 6,
+      "image": "../src/assets/Mojodi/BY-K4-11.jpg",
+      "alt": "کابل تبدیل مادگی TRS به Type C بویا BY-K4",
+      "price": "490,000"
+    },
+    {
+      "id": 7,
+      "image": "../src/assets/Mojodi/PD-MWKTC-BK-11.jpg",
+      "alt": "کیبورد و ریموت و ماوس پرودو مدل Porodo PD-MWKTC",
+      "price": "485,000"
+    },
+    {
+      "id": 8,
+      "image": "../src/assets/Mojodi/plawu-007-11.jpg",
+      "alt": "هندزفری بلوتوثی ورزشی القایی پاورولوژی مدل Powerology Pwlau007",
+      "price": "2,6990,000"
+    },
+    {
+      "id": 9,
+      "image": "../src/assets/Mojodi/Porodo-PBFCH030-22.jpg",
+      "alt": "پاوربانک و چراغ قوه 10000 میلی آمپر پرودو مدل Porodo PD-PBFCH030",
+      "price": "485,000"
+    },
+    {
+      "id": 10,
+      "image": "../src/assets/Mojodi/PPBCHA31-1156.jpg",
+      "alt": "پاورژنراتور 150 واتی مینی 32000 میلی آمپر پاورولوژی مدل Powerology PPBCHA31",
+      "price": "8,540,000"
+    },
+    {
+      "id": 11,
+      "image": "../src/assets/Mojodi/RADIO-22.jpg",
+      "alt": "پاوربانک خورشیدی 16000 میلی آمپر 4 کاره پاورولوژی مدل Powerology PPBCHA49",
+      "price": "3,340,000"
     }
   ]
 }

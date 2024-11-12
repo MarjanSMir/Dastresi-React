@@ -6,6 +6,7 @@ import React from "react";
 import axios from "axios";
 import Takhfif from './../../components/Takhfif/Takhfif';
 import Dastebandi from './../../components/Dastebandi/Dastebandi';
+import Mojodi from './../../components/Mojodi/Mojodi';
 
 export let MyContext = React.createContext();
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
       </MyContext.Provider>
       <Takhfif />
       <Dastebandi />
+      <Mojodi />
     </div>
   );
 };
