@@ -11,7 +11,7 @@ const Footer = () => {
           تهران - میدان امام خمینی - پاساژ لباف - همکف - پلاک 3 - فروشگاه بدیع
         </span>
         <a href="#Header">
-          <button className="ml-6 w-20 h-10 bg-white text-center text-black">
+          <button className="ml-6 w-20 h-10 bg-white text-center text-black rounded">
             برو به بالا
           </button>
         </a>
