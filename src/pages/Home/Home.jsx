@@ -10,6 +10,7 @@ import Mojodi from "./../../components/Mojodi/Mojodi";
 import Moarefi from "./../../components/DastresiMoarefi/DastresiM";
 import Pforosh from "./../../components/PorForosh/Porforosh";
 import Brandha from "./../../components/Brands/Brand";
+import Footer from './../../components/Footer/Footer';
 
 export let MyContext = React.createContext();
 const Home = () => {
@@ -38,6 +39,7 @@ const Home = () => {
       <Moarefi />
       <Pforosh />
       <Brandha />
+      <Footer />
     </div>
   );
 };

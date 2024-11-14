@@ -4,7 +4,7 @@ const Header = () => {
   const navigate = useNavigate();
   const changeRoute = ()=>{navigate("/Admin")}
   return (
-      <nav className="w-3/4 flex justify-between items-center m-5">
+      <nav className="w-3/4 flex justify-between items-center m-5" id="Header">
         <img className="Header-Logo" src="/src/assets/logo.png" alt="Logo" />
         <input
           type="search"
