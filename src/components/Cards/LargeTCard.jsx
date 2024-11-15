@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./Card-Style.css";
@@ -20,6 +21,7 @@ const LargeTCard = () => {
             <h3 className="font-semibold">{item.name}</h3>
             <h4>مدل:{item.model}</h4>
             <div className="price text-blue-700 text-2xl text-left">{item.price} تومان</div>
+            <Link to={`http://localhost:3000/Product/${item.id}`}>بیشتر</Link>
           </SwiperSlide>
         );
       })}
