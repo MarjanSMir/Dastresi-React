@@ -2,8 +2,10 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 const Create = () => {
-    const navigate = useNavigate();
-    const changeRoute = ()=>{navigate("/")}
+  const navigate = useNavigate();
+  const changeRoute = () => {
+    navigate("/");
+  };
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
   const [model, setModel] = useState("");
@@ -20,7 +22,7 @@ const Create = () => {
   return (
     <div className="w-full h-screen  bg-slate-400">
       <form
-        action=""
+        action="http://localhost:5173/"
         method="post"
         onSubmit={clickHandler}
         className="flex flex-col justify-center items-center"
@@ -30,6 +32,7 @@ const Create = () => {
             اسم محصول
           </label>
           <input
+            required
             className="rounded p-2"
             type="text"
             placeholder="اسم محصول"
@@ -41,6 +44,7 @@ const Create = () => {
             تصویر محصول
           </label>
           <input
+            required
             className="rounded p-2"
             type="text"
             placeholder="آدرس تصویر محصول"
@@ -52,6 +56,7 @@ const Create = () => {
             مدل محصول
           </label>
           <input
+            required
             className="rounded p-2"
             type="text"
             placeholder="مدل محصول"
@@ -60,19 +65,28 @@ const Create = () => {
         </div>
         <div className="m-4 flex flex-col items-start">
           <label htmlFor="price" className="mb-1 text-white">
-            {" "}
             قیمت محصول
           </label>
           <input
-            className="rounded p-2"
+            required
+            className="rounded p-2 "
             type="text"
             placeholder="قیمت محصول"
             onChange={(e) => setPrice(e.target.value)}
           />
         </div>
+        <input
+          className="w-[70px] h-10 bg-green-700 rounded"
+          type="submit"
+          value={"ثبت"}
+        />
 
-        <input className="w-[70px] h-10 bg-green-700 rounded" type="submit" value={"ثبت"}/>
-        <button className="w-[70px] h-10 bg-rose-800 rounded mt-2" onClick={changeRoute}>خانه</button>
+        <button
+          className="w-[70px] h-10 bg-rose-800 rounded mt-2"
+          onClick={changeRoute}
+        >
+          خانه
+        </button>
       </form>
     </div>
   );
