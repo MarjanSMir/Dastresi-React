@@ -1,169 +1,222 @@
 {
   "slider": [
     {
-      "id": 1,
+      "id": "1",
       "image": "../src/assets/Slider/banner-dastresi-1.png",
       "alt": "Banner"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "../src/assets/Slider/Artboard-5Artboard-6.png",
       "alt": "Banner"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "../src/assets/Slider/banner-dastresi-2-min.png",
       "alt": "Banner"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "../src/assets/Slider/banner-dastresi-4-min.png",
       "alt": "Banner"
     },
-    { "id": 5, "image": "../src/assets/Slider/jashnvare.jpg", "alt": "Banner" }
+    {
+      "id": "5",
+      "image": "../src/assets/Slider/jashnvare.jpg",
+      "alt": "Banner"
+    }
   ],
   "Product": [
     {
-      "id": 1,
+      "id": "1",
       "image": "../src/assets/Products/2347-11.jpg",
       "name": "شارژر دیواری 20 واتی انکر",
       "model": "Anker A2347L21",
       "price": "475,000"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "../src/assets/Products/WIRLESS-CHARG-11.jpg",
       "name": "هولدر رومیزی وایرلس شارژ مگ سیف پاورولوژی",
       "model": "Powerology PMHDWCM",
       "price": "1,897,000"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "../src/assets/Products/7bc9091890d6335159740920095b19314b99de85_1674901978.jpg",
       "name": "شارژر دیواری راوپاور 20 واتی",
       "model": "Ravpower rp-pc168",
       "price": "530,000"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "../src/assets/Products/gnmptlad4w-11.jpg",
       "name": "رابط برق USB دار 3250 واتی گرین",
       "model": "Green Lion GNMPTLAD4W",
       "price": "485,000"
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "../src/assets/Products/6455103-500.png",
       "name": "شارژر دیواری گان 20 واتی پاورولوژی",
       "model": "Powerology Pwcuqc015",
       "price": "549,000"
+    },
+    {
+      "id": "24cf",
+      "name": "شارژر برقی",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/b7187fdb12cb27b820a2950be395c73ceabe49a1_1693989902.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "model": "3232",
+      "price": "52,000"
+    },
+    {
+      "id": "135b",
+      "name": "شارژر برقی",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/b7187fdb12cb27b820a2950be395c73ceabe49a1_1693989902.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "model": "3232",
+      "price": "52,000"
+    },
+    {
+      "id": "6654",
+      "name": "شارژر برقی",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/b7187fdb12cb27b820a2950be395c73ceabe49a1_1693989902.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "model": "3232",
+      "price": "52,000"
+    },
+    {
+      "id": "e072",
+      "name": "شارژر برقی",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/b7187fdb12cb27b820a2950be395c73ceabe49a1_1693989902.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "model": "3232",
+      "price": "52,000"
+    },
+    {
+      "id": "7e0f",
+      "name": "شارژر برقی",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/b7187fdb12cb27b820a2950be395c73ceabe49a1_1693989902.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "model": "3232",
+      "price": "52,000"
+    },
+    {
+      "id": "4347",
+      "name": "هندزفری",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/4dc40e65d23c062d0537ab3b39d98d8a58419cd6_1618201532.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "model": "34",
+      "price": "20,000"
+    },
+    {
+      "id": "335a",
+      "name": "هندزفری",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/4dc40e65d23c062d0537ab3b39d98d8a58419cd6_1618201532.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "model": "34",
+      "price": "20,000"
     }
   ],
   "Dastebandi": [
     {
-      "id": 1,
+      "id": "1",
       "image": "../src/assets/Dastebandi/mobadel o rabet.png",
       "alt": "مبدل و رابط"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "../src/assets/Dastebandi/gaming.png",
       "alt": "لوازم گیمینگ"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "../src/assets/Dastebandi/adaptor.png",
       "alt": "آداپتور و شارژر"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "../src/assets/Dastebandi/battery.png",
       "alt": "باتری"
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "../src/assets/Dastebandi/cable.png",
       "alt": "کابل شارژ"
     },
     {
-      "id": 6,
+      "id": "6",
       "image": "../src/assets/Dastebandi/powerbank.png",
       "alt": "پاور بانک و لوازم"
     },
     {
-      "id": 7,
+      "id": "7",
       "image": "../src/assets/Dastebandi/handsfree.png",
       "alt": "هندزفری و هدست"
     },
     {
-      "id": 8,
+      "id": "8",
       "image": "../src/assets/Dastebandi/Holder Negahdarande.png",
       "alt": "هولدر و نگهدارنده"
     }
   ],
   "ProductM": [
     {
-      "id": 1,
+      "id": "1",
       "image": "../src/assets/Mojodi/7220EUFY-11.jpg",
       "alt": "ظرف آب حیوانات خانگی انکر",
       "price": "485,000"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "../src/assets/Mojodi/B8ZZJ0-11.jpg",
       "alt": "جویسر قابل حمل",
       "price": "450,000"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "../src/assets/Mojodi/BOOKHOOR-11.jpg",
       "alt": "دستگاه بخور سرد",
       "price": "1,000,000"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "../src/assets/Mojodi/BSW-0011-33.jpg",
       "alt": "پد وایرلس شارژ سه کاره",
       "price": "4,500,000"
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "../src/assets/Mojodi/BY-K3-11.jpg",
       "alt": "کابل تبدیل مادگی TRS به لایتنینگ بویا BY-K3",
       "price": "880,000"
     },
     {
-      "id": 6,
+      "id": "6",
       "image": "../src/assets/Mojodi/BY-K4-11.jpg",
       "alt": "کابل تبدیل مادگی TRS به Type C بویا BY-K4",
       "price": "490,000"
     },
     {
-      "id": 7,
+      "id": "7",
       "image": "../src/assets/Mojodi/PD-MWKTC-BK-11.jpg",
       "alt": "کیبورد و ریموت و ماوس پرودو مدل Porodo PD-MWKTC",
       "price": "485,000"
     },
     {
-      "id": 8,
+      "id": "8",
       "image": "../src/assets/Mojodi/plawu-007-11.jpg",
       "alt": "هندزفری بلوتوثی ورزشی القایی پاورولوژی مدل Powerology Pwlau007",
       "price": "2,6990,000"
     },
     {
-      "id": 9,
+      "id": "9",
       "image": "../src/assets/Mojodi/Porodo-PBFCH030-22.jpg",
       "alt": "پاوربانک و چراغ قوه 10000 میلی آمپر پرودو مدل Porodo PD-PBFCH030",
       "price": "485,000"
     },
     {
-      "id": 10,
+      "id": "10",
       "image": "../src/assets/Mojodi/PPBCHA31-1156.jpg",
       "alt": "پاورژنراتور 150 واتی مینی 32000 میلی آمپر پاورولوژی مدل Powerology PPBCHA31",
       "price": "8,540,000"
     },
     {
-      "id": 11,
+      "id": "11",
       "image": "../src/assets/Mojodi/RADIO-22.jpg",
       "alt": "پاوربانک خورشیدی 16000 میلی آمپر 4 کاره پاورولوژی مدل Powerology PPBCHA49",
       "price": "3,340,000"
@@ -171,61 +224,61 @@
   ],
   "ProductP": [
     {
-      "id": 1,
+      "id": "1",
       "image": "../src/assets/Pforosh/8363ANKER-11.jpg",
       "alt": "ظرف آب حیوانات خانگی انکر",
       "price": "485,000"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "../src/assets/Pforosh/ANKER3958-22.jpg",
       "alt": "جویسر قابل حمل",
       "price": "450,000"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "../src/assets/Pforosh/ANKER8339-1.jpg",
       "alt": "دستگاه بخور سرد",
       "price": "1,000,000"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "../src/assets/Pforosh/CARCH-GR65W-11.jpg",
       "alt": "پد وایرلس شارژ سه کاره",
       "price": "4,500,000"
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "../src/assets/Pforosh/GNMPB60KBK-11.jpg",
       "alt": "کابل تبدیل مادگی TRS به لایتنینگ بویا BY-K3",
       "price": "880,000"
     },
     {
-      "id": 6,
+      "id": "6",
       "image": "../src/assets/Pforosh/GREEN-11.jpg",
       "alt": "کابل تبدیل مادگی TRS به Type C بویا BY-K4",
       "price": "490,000"
     },
     {
-      "id": 7,
+      "id": "7",
       "image": "../src/assets/Pforosh/GreenLion-KIT-.jpg",
       "alt": "کیبورد و ریموت و ماوس پرودو مدل Porodo PD-MWKTC",
       "price": "485,000"
     },
     {
-      "id": 8,
+      "id": "8",
       "image": "../src/assets/Pforosh/LPMFGRWH1-11.jpg",
       "alt": "هندزفری بلوتوثی ورزشی القایی پاورولوژی مدل Powerology Pwlau007",
       "price": "2,6990,000"
     },
     {
-      "id": 9,
+      "id": "9",
       "image": "../src/assets/Pforosh/PCCSR012-11.jpg",
       "alt": "پاوربانک و چراغ قوه 10000 میلی آمپر پرودو مدل Porodo PD-PBFCH030",
       "price": "485,000"
     },
     {
-      "id": 10,
+      "id": "10",
       "image": "../src/assets/Pforosh/PCCSR016-11.jpg",
       "alt": "پاورژنراتور 150 واتی مینی 32000 میلی آمپر پاورولوژی مدل Powerology PPBCHA31",
       "price": "8,540,000"
@@ -233,47 +286,47 @@
   ],
   "Brands": [
     {
-      "id": 1,
+      "id": "1",
       "image": "../src/assets/Brands/diehard logo.jpg",
       "alt": "برند"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "../src/assets/Brands/H64c19886758b40378c31d5f46c5ae984A.jpg",
       "alt": "برند"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "../src/assets/Brands/inoben.jpg",
       "alt": "برند"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "../src/assets/Brands/logo (1).jpg",
       "alt": "برند"
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "../src/assets/Brands/logo (2).jpg",
       "alt": "برند"
     },
     {
-      "id": 6,
+      "id": "6",
       "image": "../src/assets/Brands/logo-1.jpg",
       "alt": "برند"
     },
     {
-      "id": 7,
+      "id": "7",
       "image": "../src/assets/Brands/logo.jpg",
       "alt": "برند"
     },
     {
-      "id": 8,
+      "id": "8",
       "image": "../src/assets/Brands/logp.jpg",
       "alt": "برند"
     },
     {
-      "id": 9,
+      "id": "9",
       "image": "../src/assets/Brands/Untitled-159.jpg",
       "alt": "برند"
     }
