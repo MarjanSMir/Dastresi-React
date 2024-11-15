@@ -6,6 +6,9 @@ const Admin = () => {
   const createProduct = ()=>{navigate("/Product/create")}
   const updateProduct = ()=>{navigate("/Product/update")}
   const deleteProduct = ()=>{navigate("/Product/delete")}
+  const createDastebandi = ()=>{navigate("/Dastebandi/Create")}
+  const deleteDastebandi = ()=>{navigate("/Dastebandi/delete")}
+  const updateDastebandi = () =>{navigate("/Dastebandi/update")}
   return (
     <div className="flex flex-col justify-center items-center bg-slate-300">
       <h1 className="text-4xl m-9">پنل ادمین</h1>
@@ -66,16 +69,16 @@ const Admin = () => {
       <div className="w-6/12 h-28 border border-solid m-3 rounded border-rose-900">
         <p className="text-center font-normal">بخش دسته بندی‌ها</p>
         <div className="  flex justify-center items-start">
-          <button className="w-[150px] h-[50px] rounded  text-white bg-lime-600 m-4">
+          <button className="w-[150px] h-[50px] rounded  text-white bg-lime-600 m-4" onClick={createDastebandi}>
             افزودن دسته‌بندی
           </button>
           <button className="w-[150px] h-[50px] rounded  text-white bg-cyan-600 m-4">
-            مشاهده دسته‌بندی
+            <Link  to={"http://localhost:3000/Dastebandi"}>مشاهده دسته بندی</Link>
           </button>
-          <button className="w-[150px] h-[50px] rounded  text-white bg-yellow-600 m-4">
+          <button className="w-[150px] h-[50px] rounded  text-white bg-yellow-600 m-4" onClick={updateDastebandi}>
             ویرایش دسته‌بندی
           </button>
-          <button className="w-[150px] h-[50px] rounded  text-white bg-red-600 m-4">
+          <button className="w-[150px] h-[50px] rounded  text-white bg-red-600 m-4" onClick={deleteDastebandi}>
             حذف دسته‌بندی
           </button>
         </div>
