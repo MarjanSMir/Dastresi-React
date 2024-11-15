@@ -42,13 +42,6 @@
       "price": "1,897,000"
     },
     {
-      "id": "3",
-      "image": "../src/assets/Products/7bc9091890d6335159740920095b19314b99de85_1674901978.jpg",
-      "name": "شارژر دیواری راوپاور 20 واتی",
-      "model": "Ravpower rp-pc168",
-      "price": "530,000"
-    },
-    {
       "id": "4",
       "image": "../src/assets/Products/gnmptlad4w-11.jpg",
       "name": "رابط برق USB دار 3250 واتی گرین",
@@ -61,13 +54,6 @@
       "name": "شارژر دیواری گان 20 واتی پاورولوژی",
       "model": "Powerology Pwcuqc015",
       "price": "549,000"
-    },
-    {
-      "id": "e072",
-      "name": "شارژر برقی",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/b7187fdb12cb27b820a2950be395c73ceabe49a1_1693989902.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
-      "model": "3232",
-      "price": "52,000"
     }
   ],
   "Dastebandi": [

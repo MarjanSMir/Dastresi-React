@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Admin = () => {
   const navigate = useNavigate();
   const changeRoute = ()=>{navigate("/")}
   const createProduct = ()=>{navigate("/Product/create")}
-  const getProduct = ()=>{navigate("/Product/show")}
+
   const updateProduct = ()=>{navigate("/Product/update")}
   const deleteProduct = ()=>{navigate("/Product/delete")}
   return (
@@ -18,8 +19,8 @@ const Admin = () => {
           <button className="w-[150px] h-[50px] rounded text-white bg-lime-600 m-4" onClick={createProduct}>
             افزودن محصول
           </button>
-          <button className="w-[150px] h-[50px] rounded  text-white bg-cyan-600 m-4" onClick={getProduct}>
-            مشاهده محصولات
+          <button className="w-[150px] h-[50px] rounded  text-white bg-cyan-600 m-4">
+           <Link  to={"http://localhost:3000/Product"}>مشاهده محصولات تخفیف دار</Link>
           </button>
           <button className="w-[150px] h-[50px] rounded  text-white bg-yellow-600 m-4" onClick={updateProduct}>
             ویرایش محصول
