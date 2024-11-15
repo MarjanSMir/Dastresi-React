@@ -29,24 +29,17 @@
   "Product": [
     {
       "id": "1",
-      "image": "../src/assets/Products/2347-11.jpg",
-      "name": "شارژر دیواری 20 واتی انکر",
-      "model": "Anker A2347L21",
-      "price": "475,000"
-    },
-    {
-      "id": "2",
-      "image": "../src/assets/Products/WIRLESS-CHARG-11.jpg",
+      "image": "https://www.dastresi.com/upload/filemanager/2024/07/31/WIRLESS-CHARG-11.jpg",
       "name": "هولدر رومیزی وایرلس شارژ مگ سیف پاورولوژی",
       "model": "Powerology PMHDWCM",
       "price": "1,897,000"
     },
     {
-      "id": "4",
-      "image": "../src/assets/Products/gnmptlad4w-11.jpg",
-      "name": "رابط برق USB دار 3250 واتی گرین",
-      "model": "Green Lion GNMPTLAD4W",
-      "price": "485,000"
+      "name": "شارژر دیواری 20 واتی انکر ",
+      "image": "https://www.dastresi.com/upload/filemanager/2024/03/02/2347-11.jpg",
+      "model": " Anker A2347L21",
+      "price": "475,000",
+      "id": "4"
     },
     {
       "id": "5",

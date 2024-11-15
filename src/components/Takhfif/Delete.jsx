@@ -62,13 +62,13 @@ const Delete = () => {
       <form onSubmit={handleDelete} className="flex flex-col justify-center items-center">
         <label htmlFor="id" className="mb-1 text-white m-4">
           آیدی محصول
-          <input required
+        </label>
+        <input required
             type="text"
             id="id"
             value={id}
             onChange={(e) => setId(e.target.value)} className="rounded m-3"
           />
-        </label>
         {message && <p>{message}</p>}
       {error && <p style={{ color: "red" }}>داده لود نشد</p>}
       {data && <p className="text-white">تعداد داده دریافت شده از سرور: {data.length}</p>}

@@ -4,7 +4,6 @@ const Admin = () => {
   const navigate = useNavigate();
   const changeRoute = ()=>{navigate("/")}
   const createProduct = ()=>{navigate("/Product/create")}
-
   const updateProduct = ()=>{navigate("/Product/update")}
   const deleteProduct = ()=>{navigate("/Product/delete")}
   return (
