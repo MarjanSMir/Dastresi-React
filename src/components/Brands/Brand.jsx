@@ -18,7 +18,9 @@ const Brandha = () => {
   }, []);
   return (
     <div className="w-3/4 h-auto rounded flex flex-col justify-start items-start">
-        <h1 className="text-2xl mt-10 font-semibold text-gray-600">محبوب‌ترین برندها</h1>
+      <h1 className="text-2xl mt-10 font-semibold text-gray-600">
+        محبوب‌ترین برندها
+      </h1>
       <MyContext.Provider value={Brand}>
         <CardB />
       </MyContext.Provider>
