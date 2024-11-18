@@ -61,11 +61,6 @@
       "alt": "لوازم گیمینگ"
     },
     {
-      "id": "3",
-      "image": "../src/assets/Dastebandi/adaptor.png",
-      "alt": "آداپتور و شارژر"
-    },
-    {
       "id": "4",
       "image": "../src/assets/Dastebandi/battery.png",
       "alt": "باتری"

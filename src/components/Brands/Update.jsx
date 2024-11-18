@@ -15,7 +15,7 @@ const EditProduct = () => {
     alt: "",
   });
   const [message, setMessage] = useState("");
-  const Server = "http://localhost:3000/Dastebandi";
+  const Server = "http://localhost:3000/Brands";
   const { data, error } = useSWR(Server, fetcher);
   const handleChange = (e) => {
     const { name, value } = e.target;

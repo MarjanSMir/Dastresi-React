@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
-const EditProduct = () => {
+const Update = () => {
   const navigate = useNavigate();
   const changeRoute = () => {
     navigate("/");
@@ -13,9 +13,10 @@ const EditProduct = () => {
     id: "",
     image: "",
     alt: "",
+    price:"",
   });
   const [message, setMessage] = useState("");
-  const Server = "http://localhost:3000/Dastebandi";
+  const Server = "http://localhost:3000/ProductP";
   const { data, error } = useSWR(Server, fetcher);
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -28,7 +29,7 @@ const EditProduct = () => {
     e.preventDefault();
   
     if (!formData.id) {
-      setMessage("لطفا آیدی آیتم مورد نظر را وارد کنید");
+      setMessage("لطفا آیدی محصول مورد نظر را وارد کنید");
       return;
     }
   
@@ -49,7 +50,7 @@ const EditProduct = () => {
       const currentProduct = data?.find((product) => product.id === formData.id);
   
       if (!currentProduct) {
-        setMessage("آیتم مورد نظر یافت نشد.");
+        setMessage("محصول مورد نظر یافت نشد.");
         return;
       }
   
@@ -91,7 +92,7 @@ const EditProduct = () => {
       >
         <div className="m-4 flex flex-col items-start">
           <label htmlFor="id" className="m-3 text-white">
-            آیدی آیتم
+            آیدی محصول
             <input
               className="rounded p-3 m-3 text-black"
               type="text"
@@ -117,13 +118,26 @@ const EditProduct = () => {
         </div>
         <div className="m-4 flex flex-col items-start">
           <label htmlFor="alt" className="m-3 text-white">
-            توضیحات
+            توضیحات تصویر
             <input
               className="rounded m-3 p-3 text-black"
               type="text"
               id="alt"
               name="alt"
               value={formData.alt}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
+        <div className="m-4 flex flex-col items-start">
+          <label htmlFor="price" className="m-3 text-white">
+            قیمت
+            <input
+              className="rounded m-3 p-3 text-black"
+              type="text"
+              id="price"
+              name="price"
+              value={formData.price}
               onChange={handleChange}
             />
           </label>
@@ -147,4 +161,4 @@ const EditProduct = () => {
   );
 };
 
-export default EditProduct;
+export default Update;
